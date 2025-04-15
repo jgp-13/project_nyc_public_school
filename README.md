@@ -11,6 +11,7 @@ This project presents a concise data-driven analysis of SAT score distributions 
 To enable accurate analysis, the following data preparation steps were performed:
 
 - A dataset containing SAT scores and school information was loaded.
+- The data set was checked for duplicate and missing values.
 - A composite variable `total_SAT` was engineered, representing the sum of:
   - `average_math`
   - `average_reading`
